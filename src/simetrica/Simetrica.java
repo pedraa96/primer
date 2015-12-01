@@ -57,7 +57,7 @@ public class Simetrica {
             
             encryptedData = cipher.doFinal(data);
         } catch (Exception ex) {
-            System.err.println("Error xifrant les dades: " + ex);
+            System.err.println("Error xifrant les dades: puto cristian que lo peta " + ex);
         }
         return encryptedData;
    }
